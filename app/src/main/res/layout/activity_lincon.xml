@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinconActivity">
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lincoln_navigator"
+        android:textStyle="bold"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="20dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:background="@drawable/textbg"/>
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:id="@+id/personicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_baseline_person_24"
+        app:tint="#C32C2C" />
+
+    <TextView
+        android:id="@+id/bilgiler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/Kişiselbilgi"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/personicon"
+        app:layout_constraintTop_toBottomOf="@id/personicon"
+        app:layout_constraintEnd_toEndOf="@id/personicon"
+        android:gravity="center"/>
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/bilgiler"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edittext_name"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:paddingStart="23dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:hint="@string/ad_soyad"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawableTint="#B54F4F"
+            android:background="@drawable/edittext_background"
+            android:inputType="text"
+            android:drawablePadding="20dp"
+            tools:targetApi="m" />
+        <EditText
+            android:id="@+id/edittext_tc"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="23dp"
+            android:paddingTop="8dp"
+            android:hint="@string/kimlik_no"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_perm_identity_tc"
+            android:drawableTint="#B54F4F"
+            android:background="@drawable/edittext_background"
+            android:inputType="number"
+            android:drawablePadding="20dp"
+            tools:targetApi="m" />
+        <EditText
+            android:id="@+id/edittext_mail"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="23dp"
+            android:paddingTop="8dp"
+            android:hint="@string/mail_adresiniz"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_mail_24"
+            android:drawableTint="#B54F4F"
+            android:background="@drawable/edittext_background"
+            android:inputType="textEmailAddress"
+            android:drawablePadding="20dp"
+            tools:targetApi="m" />
+        <EditText
+            android:id="@+id/edittext_telefon"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="23dp"
+            android:paddingTop="8dp"
+            android:hint="@string/telefon_no"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:drawableTint="#B54F4F"
+            android:background="@drawable/edittext_background"
+            android:inputType="number"
+            android:drawablePadding="20dp"
+            tools:targetApi="m" />
+        <EditText
+            android:id="@+id/edittext_adres"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="23dp"
+            android:paddingTop="8dp"
+            android:hint="@string/adres"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_home_adres"
+            android:drawableTint="#B54F4F"
+            android:background="@drawable/edittext_background"
+            android:inputType="text"
+            android:drawablePadding="20dp"
+            tools:targetApi="m" />
+        
+        
+        <Button
+            android:id="@+id/btn"
+            android:elevation="3dp"
+            android:clickable="true"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_baseline_check_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#CA3332"
+            android:textColor="@color/white"
+            android:text="@string/hemen_kirala"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

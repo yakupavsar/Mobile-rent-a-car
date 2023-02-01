@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="379dp"
+                app:srcCompat="@drawable/rentacar" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/baslik" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aciklama"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="-ARAÇLARIMIZ-"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/imageView2"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@drawable/lncln" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özellikleri"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/imageView3"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="243dp"
+                app:srcCompat="@drawable/lnclnbb" />
+
+            <ImageButton
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="309dp"
+                app:srcCompat="@drawable/escldkr" />
+
+            <ImageButton
+                android:id="@+id/imageView5"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                app:srcCompat="@drawable/escldtkn" />
+
+            <ImageButton
+                android:id="@+id/imageView7"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="302dp"
+                app:srcCompat="@drawable/bntly" />
+
+            <ImageButton
+                android:id="@+id/imageView8"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bntlzz" />
+
+            <ImageButton
+                android:id="@+id/imageView9"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="316dp"
+                app:srcCompat="@drawable/bmv740" />
+
+            <ImageButton
+                android:id="@+id/imageView10"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bmvekran" />
+
+            <ImageButton
+                android:id="@+id/imageView11"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/pasat" />
+
+            <ImageButton
+                android:id="@+id/imageView12"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pasatteknik" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

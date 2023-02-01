@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">proje odev</string>
+    <string name="baslik">RENT A CAR NEDİR?</string>
+    <string name="aciklama">Kurumsal Araç Kiralama Nedir? Avantajları Nelerdir?
+Araç kiralama hizmeti iş seyahatlerinde, gezilerde ve pek çok aktivitede tercih edilen bir hizmettir. Araç kiralamada ihtiyaca göre farklı araçlar kiralanabilir, zamandan ve maliyetlerden tasarruf edilmesi sağlanabilir. Kurumsal şirketler; satış, lojistik ve farklı departmanlar için çalışanları ve işyerleri için araç kiralama hizmetlerini kullanmaktadırlar. Bu şekilde, kısa dönem ve uzun dönemde araç satın almalarına gerek kalmadan diledikleri aracı kiralayabilirler. Firmaların tercih ettiği kurumsal araç kiralama nedir, avantajları nelerdir, detaylıca yakından inceleyelim.
+
+Kurumsal Araç Kiralama Nedir?
+Bireysel araç kiralama farklı bir şehre gittiğinizde orada ulaşımı sağlamak için tercih edilebilir. Kurumsal araç kiralama nedir; şirketlerin, şirket arabası olarak tahsis ettiği araçları temin etme yöntemidir. Şirketler, kurumsal araç kiralama ile çalışanların ve şirketin ihtiyaçlarına göre araç filosu kiralar. Bu sayede araçların vergileri ve masraflarıyla uğraşmazlar, aracı satın almak zorunda kalmazlar.
+
+Kurumsal araç kiralama işlemi, şirketlerin bir yıl ve daha uzun sürelerde kiraladığı ve değişimini yaptığı bir süreçtir. Uzun dönem kiralama ve filo kiralama hizmetinden yararlanılır ve şirkete maliyet açısından önemli avantajlar sağlanır. Kurumsal araç kiralama, araç fiyatlarının arttığı şu günlerde en çok tercih edilen yöntemdir.</string>
+    <string name="lincoln_navigator">LİNCOLN NAVİGATOR</string>
+    <string name="Kişiselbilgi">KİŞİSEL BİlGİLER</string>
+    <string name="ad_soyad">Ad - Soyad</string>
+    <string name="kimlik_no">Kimlik No</string>
+    <string name="mail_adresiniz">Mail Adresiniz</string>
+    <string name="telefon_no">Telefon no</string>
+    <string name="adres">Adres</string>
+    <string name="hemen_kirala">HEMEN KİRALA</string>
+</resources>
